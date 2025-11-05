@@ -16133,3 +16133,29 @@ ul {
   color: var(--bs-dark);
   background-color: var(--bs-white);
 } /*# sourceMappingURL=styles.css.map */
+
+/* Custom nav-link styles for services tabs */
+.nav-link {
+  color: var(--bs-white);
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--bs-secondary) !important;
+}
+
+.nav-link.active {
+  color: var(--bs-secondary) !important;
+}
+/* Fix for testimonial cards text colors */
+.card.bg-secondary .card-body h4,
+.card.bg-secondary .card-body h5,
+.card.bg-secondary .card-body p {
+  color: white !important;
+}
+
+.card.bg-primary .card-body h4,
+.card.bg-primary .card-body h5,
+.card.bg-primary .card-body p {
+  color: white !important;
+}

@@ -78,3 +78,17 @@
         background-color: var(--bs-white);
     }
 }
+
+// Custom nav-link styles for services tabs
+.nav-link {
+    color: var(--bs-white);
+    transition: color 0.3s ease;
+    
+    &:hover {
+        color: var(--bs-secondary) !important;
+    }
+    
+    &.active {
+        color: var(--bs-secondary) !important;
+    }
+}
